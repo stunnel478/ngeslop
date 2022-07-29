@@ -3,8 +3,8 @@
 # 2022 SLOWDNS
 # ===============================================
 cd
-rm -rf slhostdns.sh
-wget https://raw.githubusercontent.com/stunnel478/SLDNS/main/slowdns/slhostdns.sh && chmod +x slhostdns.sh && ./slhostdns.sh
+#rm -rf slhostdns.sh
+#wget https://raw.githubusercontent.com/stunnel478/SLDNS/main/slowdns/slhostdns.sh && chmod +x slhostdns.sh && ./slhostdns.sh
 nameserver=$(cat /root/nsdomain)
 apt update -y
 apt install -y python3 python3-dnslib net-tools
